@@ -1,7 +1,7 @@
-/* eslint-disable jsx-a11y/alt-text */
+
 import React, { useState, useEffect } from "react";
 import "./Meme.css";
-// import MemesData from "./MemesData.js";
+
 
 const Meme = () => {
   const [meme, setMeme] = useState({
