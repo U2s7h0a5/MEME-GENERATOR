@@ -29,8 +29,7 @@ const Meme = () => {
     const { name, value } = event.target;
     setMeme({...meme,
       [name]: value,
-    });
-    
+    });    
   }
 
   return (
